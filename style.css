@@ -285,6 +285,14 @@ footer .footer-links a:hover {
   width: 100%;
   }
 
+  img[src="imagens/image9.png"] {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  }
+
 /* RESPONSIVO */
 @media (max-width: 768px) {
 
@@ -438,7 +446,6 @@ footer .footer-links a:hover {
     font-size: 13px;
     white-space: nowrap; 
 }
-
 
   .logo-titulo img {
     max-width: 70px;
