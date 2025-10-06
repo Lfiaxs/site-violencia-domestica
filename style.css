@@ -402,6 +402,7 @@ footer .footer-links a:hover {
 
   body {
   overflow-x: hidden; 
+  width: 100;
   }
 }
 
@@ -410,10 +411,16 @@ footer .footer-links a:hover {
   .footer-links {
     display: flex;
     justify-content: center;
-    gap: 5px;
-    flex-wrap: nowrap;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0 10px;
     margin-bottom: 10px;
     white-space: nowrap;
+  }
+
+  footer img {
+  max-width: 100%;
+  height: auto;
   }
 
   .footer-contato p {
