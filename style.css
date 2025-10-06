@@ -434,6 +434,11 @@ footer .footer-links a:hover {
     font-size: 12px;
   }
 
+  .footer-links a {
+  white-space: nowrap; 
+}
+
+
   .logo-titulo img {
     max-width: 70px;
   }
