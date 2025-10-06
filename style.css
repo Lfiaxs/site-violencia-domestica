@@ -411,7 +411,7 @@ footer .footer-links a:hover {
   .footer-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: nowrap;
     padding: 0 10px;
     margin-bottom: 10px;
