@@ -139,9 +139,17 @@ header {
 }
 
 .pagina-inicial img{
-  max-width: 400px;
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
   border-radius: 5px;
+}
+
+.pagina-inicial .frase {
+    max-width: 100%;
+    margin: 20px 15px;
+    word-wrap: break-word;
 }
 
 .saiba-mais img {
@@ -272,6 +280,11 @@ footer .footer-links a:hover {
   background-color: #b35bd0;
 }
 
+ body {
+  overflow-x: hidden; 
+  width: 100%;
+  }
+
 /* RESPONSIVO */
 @media (max-width: 768px) {
 
@@ -399,11 +412,6 @@ footer .footer-links a:hover {
     font-size: 24px;
     padding: 10px 12px;
   }
-
-  body {
-  overflow-x: hidden; 
-  width: 100;
-  }
 }
 
 @media (max-width: 480px) {
@@ -415,7 +423,6 @@ footer .footer-links a:hover {
     flex-wrap: nowrap;
     padding: 0 10px;
     margin-bottom: 10px;
-    white-space: nowrap;
   }
 
   footer img {
