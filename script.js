@@ -2,19 +2,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ------------------- Carrossel -------------------
   const fotos = [
-    "Imagens/image 12.png",
-    "Imagens/image 13.png",
-    "Imagens/image 14.png",
-    "Imagens/image 15.png",
-    "Imagens/image 16.png",
-    "Imagens/image 17.png",
-    "Imagens/image 18.png",
-    "Imagens/image 19.png",
-    "Imagens/image 20.png",
-    "Imagens/image 21.png",
-    "Imagens/image 22.png",
-    "Imagens/image 23.png",
-    "Imagens/image 24.png"
+    "Imagens/image12.png",
+    "Imagens/image13.png",
+    "Imagens/image14.png",
+    "Imagens/image15.png",
+    "Imagens/image16.png",
+    "Imagens/image17.png",
+    "Imagens/image18.png",
+    "Imagens/image19.png",
+    "Imagens/image20.png",
+    "Imagens/image21.png",
+    "Imagens/image22.png",
+    "Imagens/image23.png",
+    "Imagens/image24.png"
   ];
 
   const slidesContainer = document.querySelector('.slides');
