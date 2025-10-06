@@ -350,7 +350,7 @@ footer .footer-links a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 10px;
   }
 
@@ -404,13 +404,17 @@ footer .footer-links a:hover {
 @media (max-width: 480px) {
 
   .footer-links {
+    display: flex;
+    justify-content: center;
     gap: 10px;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
   }
 
   .footer-contato p {
     font-size: 12px;
   }
-  
+
   .logo-titulo img {
     max-width: 70px;
   }
