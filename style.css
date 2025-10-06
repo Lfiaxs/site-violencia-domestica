@@ -435,7 +435,8 @@ footer .footer-links a:hover {
   }
 
   .footer-links a {
-  white-space: nowrap; 
+    font-size: 13px;
+    white-space: nowrap; 
 }
 
 
