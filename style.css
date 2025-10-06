@@ -340,13 +340,17 @@ footer .footer-links a:hover {
 
   footer {
     padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
+    flex-wrap: wrap;
     margin-bottom: 10px;
   }
 
@@ -355,10 +359,13 @@ footer .footer-links a:hover {
     text-decoration: none;
   }
 
-  /* Footer contato */
+  .footer-contato{
+    text-align: center;
+  }
+
   .footer-contato p {
     font-size: 13px;
-    margin: 4px 0;
+    margin: 3px 0;
   }
 
   .footer-contato span.rotulo {
