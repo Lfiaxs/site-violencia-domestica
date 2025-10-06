@@ -349,7 +349,7 @@ footer .footer-links a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 10px;
   }
@@ -366,6 +366,16 @@ footer .footer-links a:hover {
   .footer-contato p {
     font-size: 13px;
     margin: 3px 0;
+  }
+
+  .footer-contato p span.rotulo {
+  pointer-events: none; 
+  }
+
+  .footer-links, .footer-contato {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
   }
 
   .footer-contato span.rotulo {
@@ -393,6 +403,14 @@ footer .footer-links a:hover {
 
 @media (max-width: 480px) {
 
+  .footer-links {
+    gap: 10px;
+  }
+
+  .footer-contato p {
+    font-size: 12px;
+  }
+  
   .logo-titulo img {
     max-width: 70px;
   }
