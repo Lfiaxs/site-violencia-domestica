@@ -14,7 +14,22 @@ document.addEventListener('DOMContentLoaded', () => {
     "imagens/image21.png",
     "imagens/image22.png",
     "imagens/image23.png",
-    "imagens/image24.png"
+    "imagens/image24.png",
+    "imagens/image25.png",
+    "imagens/image26.png",
+    "imagens/image27.png",
+    "imagens/image28.png",
+    "imagens/image29.png",
+    "imagens/image30.png",
+    "imagens/image31.png",
+    "imagens/image32.png",
+    "imagens/image33.png",
+    "imagens/image34.png",
+    "imagens/image35.png",
+    "imagens/image36.png",
+    "imagens/image37.png",
+    "imagens/image38.png",
+    "imagens/image39.png",
   ];
 
   const slidesContainer = document.querySelector('.slides');
