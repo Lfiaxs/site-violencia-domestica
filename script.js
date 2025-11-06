@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
     "imagens/image37.png",
     "imagens/image38.png",
     "imagens/image39.png",
+    "imagens/image40.png",
+    "imagens/image41.png",
+    "imagens/image42.png",
+    "imagens/image43.png",
+    "imagens/image44.png",
+    "imagens/image45.png",
   ];
 
   const slidesContainer = document.querySelector('.slides');
